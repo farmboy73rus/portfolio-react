@@ -4,7 +4,7 @@ class Contacts extends Component {
     render() {
         return (
             <div>
-                <h2>Contacts</h2>
+                Skills
             </div>
         );
     }
