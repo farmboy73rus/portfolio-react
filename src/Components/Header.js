@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Form, FormControl, Nav, Navbar, Container, Button } from 'react-bootstrap';
 import { BrowserRouter, Router, Routes, Route, Link } from 'react-router-dom';
+import logo from './logo192.png';
 
 import Home from "../Pages/Home";
 import About from "../Pages/About";
@@ -20,24 +21,18 @@ export default class Header extends Component {
                             width='30'
                             className="d-inline-block align-top"
                             alt="Logo"
-                        /> React Site
+                        /> Alex Krasnov
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
-                        <Nav className="mr-auto">
-                            <Nav.Link href="/">Home</Nav.Link>
-                            <Nav.Link href="/about">About Us</Nav.Link>
-                            <Nav.Link href="/contacts">Contacts</Nav.Link>
-                            <Nav.Link href="/blog">Blog</Nav.Link>
+                        <Nav className="ms-auto">
+                            <Nav.Link className="ms-3" href="/">About Me</Nav.Link>
+                            <Nav.Link className="ms-3" href="/skills">Skills</Nav.Link>
+                            <Nav.Link className="ms-3" href="/edu">Education</Nav.Link>
+                            <Nav.Link className="ms-3" href="/work">Work</Nav.Link>
+                            <Nav.Link className="ms-3" href="/portfolio">Portfolio</Nav.Link>
+                            <Nav.Link className="ms-3" href="/contacts">Contacts</Nav.Link>
                         </Nav>
-                        <Form className="d-flex">
-                            <FormControl
-                                type="text"
-                                placeholder="Search"
-                                className="mr-sm-2"
-                            />
-                            <Button variant="outline-info">Search</Button>
-                        </Form>
                     </Navbar.Collapse>
                 </Container>
             </Navbar>

@@ -2,11 +2,12 @@ import React from 'react';
 import './App.css';
 import { Button } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Header from './Components/Header';
 
 function App() {
   return (
     <div>
-      <h2>Portfolio Project</h2>
+      <Header />
     </div>
   );
 }
