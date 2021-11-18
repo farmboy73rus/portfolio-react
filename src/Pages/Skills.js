@@ -25,6 +25,9 @@ class Contacts extends Component {
                         <div className="skills-block__item">
                             <h4 className="badge rounded-pill bg-warning text-dark">Git</h4>
                         </div>
+                        <div className="skills-block__item">
+                            <h4 className="badge rounded-pill bg-warning text-dark">Bootstrap</h4>
+                        </div>
                     </div>
                 </div>
             </div>

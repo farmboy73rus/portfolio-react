@@ -3,6 +3,7 @@
 :root{
   --red: #E5704B;
   --red-darker: #cf5029;
+  --grey: #333333;
 }
 
 *{
@@ -42,4 +43,17 @@
 }
 .edu-block__item{
   background-color: var(--red) !important;
+}
+.work-block__item{
+  background-color: var(--grey) !important;
+}
+.form-control{
+  background-color: var(--grey) !important;
+  border: transparent !important;
+  border-radius: 0 !important;
+  color: #fff !important;
+  padding: 0.777rem .75em !important;
+}
+.form-control:focus{
+  box-shadow: none !important;
 }

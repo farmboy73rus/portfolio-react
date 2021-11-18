@@ -7,8 +7,8 @@ import About from "../Pages/About";
 import Contacts from "../Pages/Contacts";
 import Work from "../Pages/Work";
 import Skills from "../Pages/Skills";
-import Education from "../Pages/Education"
-import Portfolio from "../Pages/Portfolio"
+import Education from "../Pages/Education";
+import Portfolio from "../Pages/Portfolio";
 
 export default class Header extends Component {
     render() {
@@ -41,12 +41,12 @@ export default class Header extends Component {
 
             <BrowserRouter>
                 <Routes>
-                    <Route exact path="/" element={<About/>} />
-                    <Route exact path="/skills" element={<Skills/>} />
-                    <Route exact path="/edu" element={<Education/>} />
-                    <Route exact path="/work" element={<Work/>} />
-                    <Route exact path="/portfolio" element={<Portfolio/>} />
-                    <Route exact path="/contacts" element={<Contacts/>} />
+                    <Route exact path="/" element={<About />} />
+                    <Route exact path="/skills" element={<Skills />} />
+                    <Route exact path="/edu" element={<Education />} />
+                    <Route exact path="/work" element={<Work />} />
+                    <Route exact path="/portfolio" element={<Portfolio />} />
+                    <Route exact path="/contacts" element={<Contacts />} />
                 </Routes>
             </BrowserRouter>
             </>
